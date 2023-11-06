@@ -9,7 +9,6 @@ import REGAgent from "../Comp/REG_Agent";
 const { Text } = Typography;
 
 const HomePage = () => {
-  const description = "This is a description.";
   const steps = [
     {
       title: "Fill the form",
@@ -31,21 +30,6 @@ const HomePage = () => {
     setCurrent(current + 1);
   };
 
-  const prev = () => {
-    setCurrent(current - 1);
-  };
-
-  const content = [
-    <>
-      <div>Page1</div>
-    </>,
-    <>
-      <div>Page2</div>
-    </>,
-    <>
-      <div>Page3</div>
-    </>,
-  ];
 
   return (
     <div className="flex justify-center items-center bg-sky-500 w-screen h-screen">
